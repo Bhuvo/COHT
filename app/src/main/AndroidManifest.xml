@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coht">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Runtime Permissions -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/alarm"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/CustomActionBarTheme">
+        <activity android:name=".MainActivity" />
+
+        <activity
+            android:name=".LoginScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".PersonalInfoActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MusicMain" />
+        <activity android:name=".MusicPlayerActivity" />
+        <activity
+            android:name=".MyEmerContActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.emergency_act" />
+
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Add_EmergencyActivity"
+            android:exported="true"
+            android:label=" add contact">
+            <intent-filter>
+                <action android:name="android.intent.action.addemergency_activity" />
+
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Edit_ContactActivity"
+            android:exported="true"
+            android:label=" Edit contact">
+            <intent-filter>
+                <action android:name="android.intent.action.editcontact_activity" />
+
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TrackingActivity"
+            android:exported="true"
+            android:label=" Tracking">
+            <intent-filter>
+                <action android:name="android.intent.action.tracking_activity" />
+
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyAccount"
+            android:exported="true"
+            android:label=" my account">
+            <intent-filter>
+                <action android:name="android.intent.action.my_account" />
+
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SendSMSActivity"
+            android:exported="true"
+            android:label=" send sms">
+            <intent-filter>
+                <action android:name="android.intent.category.send_sms" />
+
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".SensorService"
+            android:exported="false" />
+    </application>
+
+</manifest>

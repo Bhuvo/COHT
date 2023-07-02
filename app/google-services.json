@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "173848958443",
+    "project_id": "coht-99dc0",
+    "storage_bucket": "coht-99dc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173848958443:android:b4c803aedad1d7d76f75ae",
+        "android_client_info": {
+          "package_name": "com.example.coht"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173848958443-35rcngm2o3390qohkpek77383pn2k9et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl6gnHr2QW1Kbwjot49jUm9h4xTBw4VVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173848958443-35rcngm2o3390qohkpek77383pn2k9et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
