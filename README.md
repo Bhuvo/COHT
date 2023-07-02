@@ -7,11 +7,11 @@ Here are a few screenshots of the final App
 
 <img src="screen shot/WhatsApp Image 2023-07-02 at 2.19.50 PM.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
-<img src="https://github.com/Bhuvo/COHT/assets/138361584/0d97e320-1c05-4c53-affd-998b906a59d1" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="screen shot/registerpage.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
-<img src="https://github.com/Bhuvo/COHT/assets/138361584/2bb73d21-14d4-425b-8d05-ec84beedf2bd" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="screen shot/dashboard.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
-<img src="https://github.com/Bhuvo/COHT/assets/138361584/4b74dcf7-653b-4a80-9edd-23eeee194fa8" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="screen shot/emergencycantact.jpeg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
 # Technology Used
 <h3>Android Studio</h3>
